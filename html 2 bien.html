@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Componentes de Ordenador</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+      background-color: #1a1f2b;
+      color: #e3e6ee;
+    }
+    h1 {
+      text-align: center;
+      color: #60a5fa;
+    }
+    .component {
+      margin-bottom: 30px;
+      background: #232836;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    .component h2 {
+      background-color: #3b82f6;
+      color: white;
+      padding: 10px;
+      margin: 0 0 10px 0;
+      border-radius: 6px;
+    }
+    .component ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .component li {
+      background-color: #2d3344;
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #3f475c;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .component a {
+      text-decoration: none;
+      color: #93c5fd;
+      font-weight: bold;
+      flex: 1;
+    }
+    .component a:hover {
+      color: #bfdbfe;
+    }
+    .component img {
+      width: 180px;
+      border-radius: 8px;
+      border: 2px solid #3b82f6;
+    }
+    .compare {
+      margin-top: 10px;
+      padding: 10px;
+      background-color: #2a3040;
+      border-left: 4px solid #3b82f6;
+      border-radius: 5px;
+      font-size: 0.9rem;
+      color: #c7d2fe;
+    }
+  </style>
+</head>
+<body>
+  <h1>Componentes de Ordenador</h1>
+
+  <!-- ==== FUENTE ==== -->
+  <div class="component">
+    <h2>Fuente de Alimentación</h2>
+    <ul>
+      <li>
+        <a href="https://www.asusbymacman.es/corsair-rm750x-atx-31-750w-fuente-5900.html">Corsair RM750x ATX 3.1 750W</a>
+        <img src="img/fuente1.png" alt="Corsair RM750x ATX 3.1 750W">
+      </li>
+      <li>
+        <a href="https://www.neobyte.es/nzxt-c750-atx31-pcie-51-fuente-de-alimentacion-750w-30060.html">NZXT C750 ATX3.1 750W</a>
+        <img src="img/fuente2.png" alt="NZXT C750 ATX3.1 750W">
+      </li>
+    </ul>
+    <div class="compare">
+      ✔ La Corsair suele ser más silenciosa y con mejor garantía.<br>
+      ✔ La NZXT ofrece diseño más moderno y buenos cables.  
+    </div>
+  </div>
+
+  <!-- ==== PLACA BASE ==== -->
+  <div class="component">
+    <h2>Placa Base / Chipset</h2>
+    <ul>
+      <li>
+        <a href="https://www.pccomponentes.com/asus-tuf-gaming-b550m-plus">ASUS TUF GAMING B550M-PLUS</a>
+        <img src="img/placa1.png" alt="ASUS TUF GAMING B550M-PLUS">
+      </li>
+      <li>
+        <a href="https://www.pccomponentes.com/asus-prime-b560m-k">ASUS PRIME B560M-K</a>
+        <img src="img/placa2.png" alt="ASUS PRIME B560M-K">
+      </li>
+    </ul>
+    <div class="compare">
+      ✔ La TUF B550M-PLUS es mejor para gaming y soporta overclock en Ryzen.<br>
+      ✔ La PRIME B560M-K es más básica, pensada para Intel sin OC.  
+    </div>
+  </div>
+
+  <!-- ==== GRAFICA ==== -->
+  <div class="component">
+    <h2>Tarjeta Gráfica</h2>
+    <ul>
+      <li>
+        <a href="https://www.pccomponentes.com/msi-geforce-rtx-3060-gaming-z-trio-12gb-gddr6">MSI GeForce RTX 3060 GAMING Z TRIO 12GB</a>
+        <img src="img/grafica1.png" alt="MSI GeForce RTX 3060 GAMING Z TRIO 12GB">
+      </li>
+      <li>
+        <a href="https://www.pccomponentes.com/asus-dual-geforce-rtx-3060-12gb-gddr6">ASUS Dual GeForce RTX 3060 12GB</a>
+        <img src="img/grafica2.png" alt="ASUS Dual GeForce RTX 3060 12GB">
+      </li>
+    </ul>
+    <div class="compare">
+      ✔ La MSI tiene mejor refrigeración y menor ruido.<br>
+      ✔ La ASUS es más compacta y suele ser más económica.  
+    </div>
+  </div>
+
+  <!-- ==== RAM ==== -->
+  <div class="component">
+    <h2>RAM</h2>
+    <ul>
+      <li>
+        <a href="https://www.amazon.es/dp/B0143UM4TC">Corsair Vengeance LPX 16GB DDR4 3200MHz</a>
+        <img src="img/ram1.png" alt="Corsair Vengeance LPX 16GB DDR4 3200MHz">
+      </li>
+      <li>
+        <a href="https://es.rs-online.com/web/p/memoria-ram/1741848">Memoria RAM RS Online</a>
+        <img src="img/ram2.png" alt="Memoria RAM RS Online">
+      </li>
+    </ul>
+    <div class="compare">
+      ✔ La Corsair es más rápida y de mejor marca.<br>
+      ✔ La RAM RS suele ser más barata pero básica.  
+    </div>
+  </div>
+
+  <!-- ==== COOLER ==== -->
+  <div class="component">
+    <h2>Ventilador (Cooler)</h2>
+    <ul>
+      <li>
+        <a href="https://www.pccomponentes.com/cooler-master-hyper-212-black-edition">Cooler Master Hyper 212 Black Edition</a>
+        <img src="img/cooler1.png" alt="Cooler Master Hyper 212 Black Edition">
+      </li>
+      <li>
+        <a href="https://www.pccomponentes.com/noctua-nh-u12s">Noctua NH-U12S</a>
+        <img src="img/cooler2.png" alt="Noctua NH-U12S">
+      </li>
+    </ul>
+    <div class="compare">
+      ✔ El Hyper 212 es más económico y cumple bien.<br>
+      ✔ El Noctua es más silencioso y enfría mejor.  
+    </div>
+  </div>
+
+  <!-- ==== AUDIO ==== -->
+  <div class="component">
+    <h2>Tarjeta de Audio</h2>
+    <ul>
+      <li>
+        <a href="https://www.thomann.de/es/focusrite_scarlett_2i2_3rd_gen.htm">Focusrite Scarlett 2i2 (3rd Gen)</a>
+        <img src="img/audio1.png" alt="Focusrite Scarlett 2i2 (3rd Gen)">
+      </li>
+      <li>
+        <a href="https://www.thomann.de/es/audient_evo_4.htm">Audient EVO 4</a>
+        <img src="img/audio2.png" alt="Audient EVO 4">
+      </li>
+    </ul>
+    <div class="compare">
+      ✔ La Scarlett ofrece sonido más cálido y profesional.<br>
+      ✔ La EVO 4 tiene funciones automáticas y mejor relación calidad/precio.  
+    </div>
+  </div>
+
+  <!-- ==== SSD ==== -->
+  <div class="component">
+    <h2>Disco Duro (HDD / SSD)</h2>
+    <ul>
+      <li>
+        <a href="https://www.mediamarkt.es/es/product/_disco-duro-ssd-interno-1tb-sandisk-sdssdx3n-1t00-g26-interno-negro-146765144.html">SanDisk Extreme® M.2 NVMe SSD 1TB</a>
+        <img src="img/ssd1.png" alt="SanDisk Extreme® M.2 NVMe SSD 1TB">
+      </li>
+      <li>
+        <a href="https://www.mediamarkt.es/es/product/_disco-duro-ssd-externo-1-tb-sandisk-extreme-portable-ssd-25-hasta-1050-mbs-nvme-usb-32-ip55-gris-1532932.html">SanDisk Extreme Portable SSD 1TB</a>
+        <img src="img/ssd2.png" alt="SanDisk Extreme Portable SSD 1TB">
+      </li>
+    </ul>
+    <div class="compare">
+      ✔ El M.2 NVMe es más rápido para usar dentro del PC.<br>
+      ✔ El SSD portátil es ideal para llevar datos fuera.  
+    </div>
+  </div>
+
+  <!-- ==== CAJA ==== -->
+  <div class="component">
+    <h2>Caja</h2>
+    <ul>
+      <li>
+        <a href="https://www.coolmod.com/nzxt-h6-flow-rgb-negro/">NZXT H6 Flow RGB Negro</a>
+        <img src="img/caja1.png" alt="NZXT H6 Flow RGB Negro">
+      </li>
+      <li>
+        <a href="https://www.coolmod.com/lian-li-o11d-evo-rgb-blanco/">Lian Li O11D EVO RGB Blanco</a>
+        <img src="img/caja2.png" alt="Lian Li O11D EVO RGB Blanco">
+      </li>
+    </ul>
+    <div class="compare">
+      ✔ La NZXT tiene mejor flujo de aire.<br>
+      ✔ La Lian Li destaca por su estética premium.  
+    </div>
+  </div>
+
+  <!-- ==== SSD SECUNDARIO ==== -->
+  <div class="component">
+    <h2>Unidad SSD (Secundaria)</h2>
+    <ul>
+      <li>
+        <a href="https://www.pccomponentes.com/samsung-980-nvme-ssd-1tb">Samsung 980 NVMe SSD 1TB</a>
+        <img src="img/ssdsec1.png" alt="Samsung 980 NVMe SSD 1TB">
+      </li>
+      <li>
+        <a href="https://www.amazon.es/dp/B08PC5DKZQ">Crucial P3 Plus 1TB Gen4 NVMe</a>
+        <img src="img/ssdsec2.png" alt="Crucial P3 Plus 1TB Gen4 NVMe">
+      </li>
+    </ul>
+    <div class="compare">
+      ✔ El Samsung 980 es más fiable y consistente.<br>
+      ✔ El Crucial P3 Plus es más rápido en Gen4 y más barato.  
+    </div>
+  </div>
+
+</body>
+</html>
